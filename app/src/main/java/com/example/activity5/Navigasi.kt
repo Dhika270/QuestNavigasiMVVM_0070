@@ -17,3 +17,7 @@ enum class Navigasi {
 fun DataApp(
     navController: NavHostController = rememberNavController()
 ) {
+    NavHost(
+        navController = navController,
+        startDestination = Navigasi.FormulirSaya.name
+    ) {
