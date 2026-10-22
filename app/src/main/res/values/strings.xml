@@ -7,4 +7,5 @@
     <string name="alamat">ALAMAT</string>
     <string name="tampil">Tampilan Data</string>
     <string name="home">Isian</string>
+    <string name="tampilan_data" />
 </resources>
