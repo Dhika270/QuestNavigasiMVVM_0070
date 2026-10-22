@@ -21,3 +21,10 @@ fun DataApp(
         navController = navController,
         startDestination = Navigasi.FormulirSaya.name
     ) {
+        composable(route = Navigasi.FormulirSaya.name) {
+            FormIsian(
+                OnSubmitBtnClick = {
+                    navController.navigate(Navigasi.Detail.name)
+                }
+            )
+        }
